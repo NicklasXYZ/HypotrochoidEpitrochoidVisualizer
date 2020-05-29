@@ -1,0 +1,33 @@
+{
+    "name": "hypotrochoid-epitrochoid-visualizer",
+    "version": "1.0.0",
+    "author": "nicklasxyz",
+    "license": "MIT",
+    "description": "Hypotrochoid/Epitrochoid Visualizer.",
+    "main": "webpack.config.js",
+    "scripts": {
+        "dev": "webpack-dev-server",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nicklasxyz/HypotrochoidEpitrochoidVisualizer.git"
+    },
+    "dependencies": {
+        "dat.gui": "^0.7.7",
+        "three": "^0.112.1",
+        "webpack": "^4.41.5"
+    },
+    "devDependencies": {
+        "@types/dat.gui": "^0.7.5",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.5.1",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "homepage": "https://github.com/nicklasxyz/HypotrochoidEpitrochoidVisualizer",
+    "bugs": {
+        "url": "https://github.com/nicklasxyz/HypotrochoidEpitrochoidVisualizer/issues"
+    }
+}

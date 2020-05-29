@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "lib": ["es2015", "dom"],
+        "baseUrl": "./",
+        "paths": {},
+        "noImplicitAny": true, 
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
