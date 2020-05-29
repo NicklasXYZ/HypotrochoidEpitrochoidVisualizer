@@ -12,7 +12,7 @@ This is a small Typescript project that utilizes the [Three.js](https://threejs.
 
 To be able to compile and run the code locally in the browser, the following things are needed:
 
-- [Node.js](https://nodejs.org/en/): A package manager for Node.js packages. Through this package manager all other dependencies can be installed automatically (see how in the next section: [](#usage)). The dependencies that, most importantly, should be installed are the following: 
+- [Node.js](https://nodejs.org/en/): A package manager for Node.js packages. Through this package manager all other dependencies can be installed automatically (see how in the next section: [Usage](#usage)). The dependencies that, most importantly, should be installed are the following: 
   - [Three.js](https://threejs.org/): A library that uses WebGL and provides an API for creating and and displaying animated computer graphics in a web browser.
   - [Webpack](https://webpack.js.org/): A library that is able to bundle all dependencies into static assets, which can then easily be included into a static website.
   - [dat.GUI](https://github.com/dataarts/dat.gui): A lightweight library for changing variables through a graphical user interface.
@@ -23,8 +23,8 @@ To be able to compile and run the code locally in the browser, the following thi
 
 1. Through the terminal clone this repository to a certain directory and navigate to it:
    ```
-   git clone https://github.com/nicklasxyz/EpitrochoidHypotrochoidVisualizer && \
-   cd EpitrochoidHypotrochoidVisualizer 
+   git clone https://github.com/nicklasxyz/HypotrochoidEpitrochoidVisualizer && \
+   cd HypotrochoidEpitrochoidVisualizer 
    ```
 2. Install all dependensies needed for the application to run:
    ```
