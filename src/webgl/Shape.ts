@@ -87,7 +87,7 @@ export default class Shape {
     distance: number;
     stretch: number;
     scale: number;
-    type: boolean; // true: Hypotrochoide curve, false: Epitrochoid curve
+    type: number; // 0: Hypotrochoide curve, 1: Epitrochoid curve
     segments: number;
     segmentMultiplier: number;
 
@@ -118,7 +118,7 @@ export default class Shape {
         this.distance = 0;
         this.stretch = 0;
         this.scale = 0;
-        this.type = true;
+        this.type = 0;
         this.segments = 0;
         this.segmentMultiplier = 0;
 
@@ -148,7 +148,9 @@ export default class Shape {
     drawShape(): void {
         var curve;
         // Generate shape data
-        if (this.type) {
+        console.log("Type: " + this.type);
+        if (this.type == 0) {
+            console.log("---> Drawing Hypotrochoid " + this.type);
             curve = new Hypotrochoid(
                 this.radiusOne,
                 this.radiusTwo,
@@ -156,7 +158,8 @@ export default class Shape {
                 this.stretch,
                 this.scale,
             );
-        } else {
+        } else if (this.type == 1) {
+            console.log("---> Drawing Epitrochoid " + this.type);
             curve = new Epitrochoid(
                 this.radiusOne,
                 this.radiusTwo,

@@ -115,7 +115,7 @@ export default class View {
         // Folder f1: Shape parameters
         this.shapeParameters.gui_shapeType = this.f1.add(
             this.shape, "type", // Object, Object.property
-            {Epitrochoid: false, Hyprotrochoid: true}, // Choices
+            {Hypotrochoid: 0, Epitrochoid: 1}, // Choices
         );
         this.shapeParameters.gui_shapeType.onChange( () => { this.shape.removeShape(); this.shape.drawShape(); } );
 
@@ -252,7 +252,7 @@ export default class View {
     }
 
     preset01(): void {
-        this.shapeParameters.gui_shapeType.setValue(true) // Draw Hypotrochoid
+        this.shapeParameters.gui_shapeType.setValue(0) // Draw Hypotrochoid
         // Shape parameter settings
         this.shapeParameters.gui_radiusOne.setValue(
             this.shapeParameters.radiusOne_max * 0.3305,
@@ -294,7 +294,7 @@ export default class View {
     }
 
     preset02(): void {
-        this.shapeParameters.gui_shapeType.setValue(false) // Draw Epitrochoid
+        this.shapeParameters.gui_shapeType.setValue(1) // Draw Epitrochoid
         // Shape parameter settings
         this.shapeParameters.gui_radiusOne.setValue(
             this.shapeParameters.radiusOne_max * 0.166,
@@ -334,7 +334,7 @@ export default class View {
     }
 
     preset03(): void {
-        this.shapeParameters.gui_shapeType.setValue(true) // Draw Hypotrochoid
+        this.shapeParameters.gui_shapeType.setValue(0) // Draw Hypotrochoid
         // Shape parameter settings
         this.shapeParameters.gui_radiusOne.setValue(
             this.shapeParameters.radiusOne_max * 0.2222,
