@@ -8,7 +8,7 @@ This is a small Typescript project that utilizes the [Three.js](https://threejs.
 
 **Note:** A live preview is also available at: [This location](https://nicklas.xyz/lab/hypotrochoidepitrochoidvisualizer/)
 
-# Dependencies
+## Dependencies
 
 To be able to compile and run the code locally in the browser, the following things are needed:
 
@@ -17,7 +17,7 @@ To be able to compile and run the code locally in the browser, the following thi
   - [Webpack](https://webpack.js.org/): A library that is able to bundle all dependencies into static assets, which can then easily be included into a static website.
   - [dat.GUI](https://github.com/dataarts/dat.gui): A lightweight library for changing variables through a graphical user interface.
 
-# Usage
+## Usage
 
 **Installing all dependencies:**
 
