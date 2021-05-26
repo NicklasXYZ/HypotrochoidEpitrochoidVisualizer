@@ -28,7 +28,7 @@ To be able to compile and run the code locally in the browser, the following thi
    ```
 2. Install all dependensies needed for the application to run:
    ```
-   npm install
+   npm install --force
    ```
 
 **Serving the website locally:**

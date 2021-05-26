@@ -6,7 +6,7 @@
     "description": "Hypotrochoid/Epitrochoid Visualizer.",
     "main": "webpack.config.js",
     "scripts": {
-        "dev": "webpack-dev-server",
+        "dev": "webpack serve",
         "build": "webpack"
     },
     "repository": {
@@ -15,16 +15,16 @@
     },
     "dependencies": {
         "dat.gui": "^0.7.7",
-        "three": "^0.112.1",
-        "webpack": "^4.41.5"
+        "three": "^0.128.0",
+        "webpack": "^5.37.1"
     },
     "devDependencies": {
-        "@types/dat.gui": "^0.7.5",
-        "extract-text-webpack-plugin": "^3.0.2",
-        "ts-loader": "^6.2.1",
-        "typescript": "^3.5.1",
-        "webpack-cli": "^3.3.10",
-        "webpack-dev-server": "^3.11.0"
+        "@types/dat.gui": "^0.7.6",
+        "@types/three": "^0.128.0",
+        "ts-loader": "^9.2.2",
+        "typescript": "^4.3.2",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
     },
     "homepage": "https://github.com/nicklasxyz/HypotrochoidEpitrochoidVisualizer",
     "bugs": {
