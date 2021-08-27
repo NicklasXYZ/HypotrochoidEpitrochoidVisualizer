@@ -6,7 +6,7 @@ This is a small Typescript project that utilizes the [Three.js](https://threejs.
 
 ![](preview/preview.png)
 
-**Note:** A live preview is also available at: [This location](https://nicklas.xyz/lab/hypotrochoidepitrochoidvisualizer/)
+**Note:** A live preview is also available at: [This location](https://nicklasxyz.github.io/HypotrochoidEpitrochoidVisualizer/)
 
 ## Dependencies
 
